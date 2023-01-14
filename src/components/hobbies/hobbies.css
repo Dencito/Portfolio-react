@@ -1,0 +1,46 @@
+.hobbies {
+    overflow: hidden;
+    height: auto;
+}
+.hobbie {
+  box-shadow: 10px 15px 30px rgba(60, 60, 60, 0.419),
+    -15px -15px 30px rgb(25, 25, 25);
+  border-radius: 10px;
+  color: var(--ColorBlanco);
+  cursor: pointer;
+  transition: all .7s;
+}
+
+.hobbie > div {
+  transition: all 0.5s;
+}
+
+.hobbie:hover {
+    background-image: radial-gradient( circle farthest-corner at -4% -12.9%,  rgb(180, 34, 78) 0.3%, rgba(30,33,48,1) 90.2% );
+    color: var(--ColorBlanco);
+  transition: all 0.5s;
+}
+
+.hobbie:hover > .icon i {
+    color: var(--ColorBlanco);
+    transition: all 0.4s;
+}
+
+.hobbie .icon i {
+  font-size: 45px;
+  color: var(--ColorRojito);
+}
+.hobbie .titleHobbie h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.hobbie .contenidoHobbie p {
+  font-weight: 400;
+  color: var(--ColorGris);
+}
+
+.hobbie:hover > div {
+  transform: translateY(-20px);
+  transition: all 0.5s;
+}

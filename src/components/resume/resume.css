@@ -1,0 +1,49 @@
+.estudio {
+    box-shadow: 10px 15px 30px rgba(60, 60, 60, 0.419),
+    -15px -15px 30px rgb(25, 25, 25);
+    border-radius: 15px;
+}
+
+.hobbie:hover p {
+    color: var(--ColorBlanco);
+  transition: all 0.5s;
+}
+
+.botonesLinks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    transition: all .5s;
+}
+.botonesLinks button {
+    text-decoration: none;
+    color: var(--ColorRojito);
+    border-radius: 15px;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 2px 5px 7px rgba(255, 255, 255, 0.212);
+    background-color: rgba(0, 0, 0, 0.221);
+    border: none;
+    transition: all .5s;
+}
+
+.botonesLinks button:hover {
+    position: relative;
+    cursor: pointer;
+    background-image: radial-gradient( circle farthest-corner at -4% -12.9%,  rgb(180, 34, 78) 0.3%, rgba(30,33,48,1) 90.2% );
+    transition: all .5s;
+    color: var(--ColorBlanco);
+}
+
+.react {
+    animation: rotating 5s linear infinite;
+  }
+  @keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

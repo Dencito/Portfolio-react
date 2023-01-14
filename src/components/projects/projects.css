@@ -1,0 +1,74 @@
+.projects {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.342);
+    margin-bottom: 100px;
+}
+.projects title {
+    margin-top: 200px;
+}
+.proyecto {
+    box-shadow: 10px 15px 30px rgba(60, 60, 60, 0.419),
+    -15px -15px 30px rgb(25, 25, 25);
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+.proyecto img {
+    border-radius: 15px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.proyecto .img {
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all .5s;
+}
+
+.proyecto img:hover {
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+.deploy {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    transition: all .5s;
+}
+.deploy a {
+    text-decoration: none;
+    color: var(--ColorRojito);
+    border-radius: 15px;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 2px 5px 7px rgba(255, 255, 255, 0.212);
+    transition: all .5s;
+}
+
+.deploy a:hover {
+    position: relative;
+    cursor: pointer;
+    background-image: radial-gradient( circle farthest-corner at -4% -12.9%,  rgb(180, 34, 78) 0.3%, rgba(30,33,48,1) 90.2% );
+    transition: all .5s;
+    color: var(--ColorBlanco);
+}
+
+.deploy a:nth-child(1):after {
+    content: " GitHub";
+    color: var(--ColorRojito);
+    transition: all .5s;
+}
+.deploy a:hover:after {
+    color: var(--ColorBlanco);
+}
+
+.deploy a:nth-child(2):after {
+    content: " Deploy";
+    color: var(--ColorRojito);
+    transition: all .5s;
+}
+.deploy a:hover:after {
+    color: var(--ColorBlanco);
+}
+

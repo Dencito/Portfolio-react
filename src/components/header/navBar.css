@@ -1,0 +1,27 @@
+.bg-navBar {
+    background-color: var(--ColorOscuro);
+    box-shadow: 0 1px 5px var(--ColorRojito);
+    position: sticky;
+    transition: all 0.5s;
+}
+
+.up {
+    top: -100px;
+}
+.nav-link {
+    color: var(--ColorBlanco);
+    transition: all 0.5s;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.nav-link:focus {
+    color: var(--ColorRojito);
+}
+.nav-link:hover {
+    color: var(--ColorRojito);
+}
+
+.nav-link:active {
+    color: var(--ColorRojito);
+}
